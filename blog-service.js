@@ -76,7 +76,7 @@ module.exports.getPostsByCategory = (category) => {
 
 module.exports.getPostsByMinDate = (minDateStr) => {
     return new Promise((resolve, reject) => {
-        let postsByMinDate =  posts.flat().filter(x => x.postDate >= minDateStr);
+        let postsByMinDate =  posts.flat().filter(x => new Date(x.postDate) >= new Date(minDateStr));
         if(postsByMinDate.length > 0) {
             resolve(postsByMinDate);
         } else {
