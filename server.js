@@ -1,9 +1,10 @@
 /*********************************************************************************
- *  WEB322 – Assignment 02
- *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part *  of this assignment has been copied manually or electronically from any other source
+ *  WEB322 – Assignment 03
+ *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part
+ *  of this assignment has been copied manually or electronically from any other source
  *  (including 3rd party web sites) or distributed to other students.
  *
- *  Name: Shubpreet Kaur Student ID:161155213 Date: ________________
+ *  Name: Shubpreet Kaur    Student ID: 161155213    Date: 2023-02-19
  *
  *  Online (Cyclic) Link: https://blue-expensive-penguin.cyclic.app/about
  *
