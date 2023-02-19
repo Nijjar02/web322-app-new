@@ -58,11 +58,6 @@ module.exports.addPost = (postData) => {
         }
         postData["id"] = posts.flat().length + 1;
         postData["published"] = isPublished;
-        let today = new Date();
-        let dd = String(today.getDate()).padStart(2, '0');
-        let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        let yyyy = today.getFullYear();
-        postData["postDate"] = yyyy + '-' + mm + '-' + dd;
         posts.push(postData);
         resolve("updated");
     });
