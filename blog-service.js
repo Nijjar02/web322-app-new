@@ -49,3 +49,54 @@ module.exports.getCategories = new Promise((resolve, reject) => {
         }
     }, 500);
 });
+
+module.exports.addPost = (postData) => {
+    return new Promise((resolve, reject) => {
+        let isPublished = false;
+        if (postData.published) {
+            isPublished = true;
+        }
+        postData["id"] = posts.flat().length + 1;
+        postData["published"] = isPublished;
+        let today = new Date();
+        let dd = String(today.getDate()).padStart(2, '0');
+        let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        let yyyy = today.getFullYear();
+        postData["postDate"] = yyyy + '-' + mm + '-' + dd;
+        posts.push(postData);
+        resolve("updated");
+    });
+};
+
+module.exports.getPostsByCategory = (category) => {
+    return new Promise((resolve, reject) => {
+        let postsByCategory =  posts.flat().filter(x => x.category == category);
+        if(postsByCategory.length > 0) {
+            resolve(postsByCategory);
+        } else {
+            reject("no results returned")
+        }
+    });
+}
+
+module.exports.getPostsByMinDate = (minDateStr) => {
+    return new Promise((resolve, reject) => {
+        let postsByMinDate =  posts.flat().filter(x => x.postDate >= minDateStr);
+        if(postsByMinDate.length > 0) {
+            resolve(postsByMinDate);
+        } else {
+            reject("no results returned")
+        }
+    });
+}
+
+module.exports.getPostById = (id) => {
+    return new Promise((resolve, reject) => {
+        let postById =  posts.flat().filter(x => x.id == id);
+        if(postById.length > 0) {
+            resolve(postById);
+        } else {
+            reject("no results returned")
+        }
+    });
+}

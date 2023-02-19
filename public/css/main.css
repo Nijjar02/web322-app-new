@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background: url("/images/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
 }
 
 h2 {
   color: #fc5015;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+}
+
+legend {
+  color: #fff;
 }
