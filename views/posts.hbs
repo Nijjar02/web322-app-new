@@ -1,7 +1,9 @@
 <div class="container" style="padding-top: 60px">
     <div class="row">
         <div class="col-md-12">
-            <h2>Posts</h2>
+            <h2>
+                Posts <a href="/posts/add" class="btn btn-success pull-right">Add Post</a>
+            </h2>
             <hr/>
 
             {{#if posts }}
@@ -14,6 +16,7 @@
                             <th>Post Date</th>
                             <th>Category</th>
                             <th>Published</th>
+                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -21,11 +24,12 @@
                             <tr>
                                 <td>{{this.id}}</td>
                                 <td>{{this.title}}</td>
-                                <td>{{this.postDate}}</td>
+                                <td>{{#formatDate this.postDate}}{{/formatDate}}</td>
                                 <td>
                                     <a href="/posts?category={{this.category}}">{{this.category}}
                                 </td>
                                 <td>{{this.published}}</td>
+                                <td><a href="/posts/delete/{{this.id}}" class="btn btn-danger">remove</a></td>
                             </tr>
                         {{/each}}
                         </tbody>
