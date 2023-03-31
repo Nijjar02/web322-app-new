@@ -168,10 +168,7 @@ app.post("/register", (req, res) => {
 });
 
 app.get("/register", (req, res) => {
-    // console.log(req.session);
-    // res.send(req.session.user);
     res.render("register");
-    // res.render("register", {layout: false});
 });
 /* Assignment 6 Code [end] */
 
