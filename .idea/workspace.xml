@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2437dbf0-9cdc-4e2e-9e78-30f053dd3e6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Assignment 4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="a8bf6b3f-6f9a-4d6a-bf8c-4512bbbbaa5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/posts.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/addPost.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/addPost.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/blog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/categories.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/categories.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/posts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +22,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MOqMgosTUE7uahjvwBa2D9JZlO" />
+  <component name="ProjectId" id="2NVJSZigjEr0s3BAllZeWQkbrLu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +32,6 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VMM/assignments/__Node__/WEB322/Assignment 4/views&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -47,23 +40,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\VMM\assignments\__Node__\WEB322\Assignment 4\views" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2437dbf0-9cdc-4e2e-9e78-30f053dd3e6f" name="Changes" comment="" />
-      <created>1677648931551</created>
+      <changelist id="a8bf6b3f-6f9a-4d6a-bf8c-4512bbbbaa5e" name="Changes" comment="" />
+      <created>1679743322818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677648931551</updated>
-      <workItem from="1677648933585" duration="10284000" />
-      <workItem from="1677668394127" duration="599000" />
-      <workItem from="1678687320858" duration="1079000" />
-      <workItem from="1678694119486" duration="687000" />
+      <updated>1679743322818</updated>
+      <workItem from="1679743325598" duration="4652000" />
+      <workItem from="1679892820886" duration="362000" />
+      <workItem from="1679980143682" duration="3106000" />
+      <workItem from="1680005932442" duration="2352000" />
+      <workItem from="1680068605367" duration="14636000" />
+      <workItem from="1680154741796" duration="8906000" />
+      <workItem from="1680238652541" duration="2500000" />
     </task>
     <servers />
   </component>

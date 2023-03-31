@@ -15,8 +15,7 @@ var sequelize = new Sequelize(
         dialectOptions: {
             ssl: {rejectUnauthorized: false},
         },
-        query: {raw: true},
-        logging: false,
+        query: {raw: true}
     }
 );
 
@@ -36,12 +35,11 @@ Post.belongsTo(Category, {foreignKey: "category"}); // relationship
 
 /* ---------------------------------------- */
 /* ---------------------------------------- */
-module.exports.initialize = new Promise((resolve, reject) => {
-    sequelize
-        .sync()
-        .then(() => resolve("success"))
-        .catch(() => reject("unable to sync the database"));
-});
+module.exports.initialize = () => {
+    return new Promise(function (resolve, reject) {
+        sequelize.sync().then(() => resolve("success")).catch(() => reject("unable to sync the database"));
+    });
+}
 
 module.exports.getAllPosts = () => {
     return new Promise((resolve, reject) => {
